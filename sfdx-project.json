@@ -1,30 +1,32 @@
 {
-  "packageDirectories": [
-    {
-      "path": "dreamhouse-app",
-      "default": true,
-      "package": "dreamhouse-app",
-      "versionNumber": "1.0.0",
-      "dependencies": [
+    "packageDirectories": [
         {
-          "package": "dxatscale-base"
-        },
-        {
-          "package": "LWCC"
-        },
-        {
-          "package": "flowmagic"
+            "path": "dreamhouse-app",
+            "default": true,
+            "package": "dreamhouse-app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "dxatscale-base"
+                },
+                {
+                    "package": "LWCC"
+                },
+                {
+                    "package": "flowmagic"
+                }
+            ]
         }
-      ]
+    ],
+    "name": "dxatscale101-source",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "54.0",
+    "packageAliases": {
+        "dxatscale-base": "04t6F000001ZL7yQAG",
+        "LWCC": "04t5I000001ecttQAA",
+        "flowmagic": "04t6F000001D6LOQA0",
+        "dreamhouse-app": "0Ho8c00000000aFCAQ"
     }
-  ],
-  "name": "dxatscale101-source",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "54.0",
-  "packageAliases": {
-    "dxatscale-base":"04t6F000001ZL7yQAG",
-    "LWCC":"04t5I000001ecttQAA",
-    "flowmagic": "04t6F000001D6LOQA0"
-  }
 }
