@@ -2,7 +2,20 @@
   "packageDirectories": [
     {
       "path": "dreamhouse-app",
-      "default": true
+      "default": true,
+      "package": "dreamhouse-app",
+      "versionNumber": "1.0.0",
+      "dependencies": [
+        {
+          "package": "04t6F000001ZL7yQAG"
+        },
+        {
+          "package": "04t5I000001ecttQAA"
+        },
+        {
+          "package": "04t6F000001D6LOQA0"
+        }
+      ]
     }
   ],
   "name": "dxatscale101-source",
