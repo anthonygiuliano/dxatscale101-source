@@ -7,13 +7,13 @@
       "versionNumber": "1.0.0",
       "dependencies": [
         {
-          "package": "04t6F000001ZL7yQAG"
+          "package": "dxatscale-base"
         },
         {
-          "package": "04t5I000001ecttQAA"
+          "package": "LWCC"
         },
         {
-          "package": "04t6F000001D6LOQA0"
+          "package": "flowmagic"
         }
       ]
     }
@@ -21,5 +21,10 @@
   "name": "dxatscale101-source",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "54.0"
+  "sourceApiVersion": "54.0",
+  "packageAliases": {
+    "dxatscale-base":"04t6F000001ZL7yQAG",
+    "LWCC":"04t5I000001ecttQAA",
+    "flowmagic": "04t6F000001D6LOQA0"
+  }
 }
