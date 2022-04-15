@@ -3,9 +3,6 @@
         {
             "path": "dreamhouse-app",
             "default": true,
-            "package": "dreamhouse-app",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
             "dependencies": [
                 {
                     "package": "dxatscale-base"
@@ -16,7 +13,16 @@
                 {
                     "package": "flowmagic"
                 }
-            ]
+            ],
+            "package": "dreamhouse-app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "src-env-specifit",
+            "package": "env-specific",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.0"
         }
     ],
     "name": "dxatscale101-source",
