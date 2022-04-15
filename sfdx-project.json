@@ -19,7 +19,7 @@
             "versionNumber": "0.1.0.NEXT"
         },
         {
-            "path": "src-env-specifit",
+            "path": "src-env-specific",
             "package": "env-specific",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.0"
